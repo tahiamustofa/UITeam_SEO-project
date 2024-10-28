@@ -1,5 +1,9 @@
 
-
 .figtree{
   font-family: "Figtree", sans-serif;
+  }
+
+  .hero{
+    background-image: url('images/Background\ Image.jpg');
+    background-size: cover;
   }
