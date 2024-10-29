@@ -7,3 +7,11 @@
     background-image: url('images/Background\ Image.jpg');
     background-size: cover;
   }
+  /* Add this to your global styles or component styles */
+.testimonial-card {
+  /* ...existing styles from the HTML */
+}
+
+.testimonial-slider-button {
+  /* ...styles for the slider buttons */
+}
