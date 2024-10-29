@@ -7,7 +7,10 @@
   <title>Document</title>
   <!-- css  -->
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="style.scss">
+  <link rel="stylesheet" href="slider.css">
+
+  <!-- swpper  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
   <!-- tailwind cdn -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -806,157 +809,150 @@
     <section class="lg:py-20 lg:mb-28 mb-10 py-10 my-20">
       <div>
         <div class="text-center space-y-3 mb-4 md:mb-10">
-          <p class="text-[#ff6610] text-base">Our Team</p>
+          <p class="text-[#ff6610] text-base">Testimonials</p>
           <h2 class="text-[#090b0e] lg:text-4xl md:text-3xl text-xl font-bold">
-            Meet With Our Expert <br>
-            Team
+            What Our Client Say
           </h2>
         </div>
 
         <!-- slide  -->
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto text-center pt-3 pb-5">
-              <h1>Swiper sliders</h1>
-              <p>Sliders using <a href="https://swiperjs.com/">swiperjs.com</a></p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <h2 class="pb-4 text-center">Slider with multiple items on a page</h2>
-              <div class="swiper-signposting" id="1234">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <a href="#" class="signposting-item h-100 d-flex flex-column text-center justify-space-between"
-                      aria-label="Slider title 1">
-                      <div class="signposting-item-content">
-                        <div class="signposting-item-icon">
-                          <span class="material-symbols-outlined" aria-label="Star">
-                            star
-                          </span>
-                        </div>
-                        <div class="h4 signposting-item-title" role="heading" aria-level="3">Slider sitle 1</div>
-                        <p class="">This is the slider text</p>
-                      </div>
-                      <div class="button-wrap mt-auto">
-                        <div class="button __inline">Find out more</div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#" class="signposting-item h-100 d-flex flex-column text-center justify-space-between"
-                      aria-label="Slider title 2">
-                      <div class="signposting-item-content">
-                        <div class="signposting-item-icon">
-                          <span class="material-symbols-outlined" aria-label="Heart">
-                            favorite
-                          </span>
-                        </div>
-                        <div class="h4 signposting-item-title" role="heading" aria-level="3">Slider sitle 2</div>
-                        <p class="">This is some slightly longer slider text</p>
-                      </div>
-                      <div class="button-wrap mt-auto">
-                        <div class="button __inline">Find out more</div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#" class="signposting-item h-100 d-flex flex-column text-center justify-space-between"
-                      aria-label="Slider title 3">
-                      <div class="signposting-item-content">
-                        <div class="signposting-item-icon">
-                          <span class="material-symbols-outlined" aria-label="Diversity">
-                            diversity_1
-                          </span>
-                        </div>
-                        <div class="h4 signposting-item-title" role="heading" aria-level="3">Slider sitle 3</div>
-                        <p class="">This is the slider text</p>
-                      </div>
-                      <div class="button-wrap mt-auto">
-                        <div class="button __inline">Find out more</div>
-                      </div>
-                    </a>
-
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#" class="signposting-item h-100 d-flex flex-column text-center justify-space-between"
-                      aria-label="Slider title 4">
-                      <div class="signposting-item-content">
-                        <div class="signposting-item-icon">
-                          <span class="material-symbols-outlined" aria-label="smile">
-                            sentiment_satisfied
-                          </span>
-                        </div>
-                        <div class="h4 signposting-item-title" role="heading" aria-level="3">Slider sitle 4</div>
-                        <p class="">This is some much longer slider text which goes onto several rows</p>
-                      </div>
-                      <div class="button-wrap mt-auto">
-                        <div class="button __inline">Find out more</div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#" class="signposting-item h-100 d-flex flex-column text-center justify-space-between"
-                      aria-label="Slider title 5">
-                      <div class="signposting-item-content">
-                        <div class="signposting-item-icon">
-                          <span class="material-symbols-outlined" aria-label="Forest">
-                            forest
-                          </span>
-                        </div>
-                        <div class="h4 signposting-item-title" role="heading" aria-level="3">Slider sitle 5</div>
-                        <p class="">This is the slider text</p>
-                      </div>
-                      <div class="button-wrap mt-auto">
-                        <div class="button __inline">Find out more</div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#" class="signposting-item h-100 d-flex flex-column text-center justify-space-between"
-                      aria-label="Slider title 4">
-                      <div class="signposting-item-content">
-                        <div class="signposting-item-icon">
-                          <span class="material-symbols-outlined" aria-label="Moon">
-                            dark_mode
-
-                          </span>
-                        </div>
-                        <div class="h4 signposting-item-title" role="heading" aria-level="3">Slider sitle 6</div>
-                        <p class="">This is the slider text</p>
-                      </div>
-                      <div class="button-wrap mt-auto">
-                        <div class="button __inline">Find out more</div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a href="#" class="signposting-item h-100 d-flex flex-column text-center justify-space-between"
-                      aria-label="Slider title 7">
-                      <div class="signposting-item-content">
-                        <div class="signposting-item-icon">
-                          <span class="material-symbols-outlined" aria-label="Sun">
-                            sunny
-                          </span>
-                        </div>
-                        <div class="h4 signposting-item-title" role="heading" aria-level="3">Slider sitle 7</div>
-                        <p class="">This is the slider text</p>
-                      </div>
-                      <div class="button-wrap mt-auto">
-                        <div class="button __inline">Find out more</div>
-                      </div>
-                    </a>
-                  </div>
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
+          slides-per-view="3">
+          <!-- 1 -->
+          <swiper-slide>
+            <div class="bg-white shadow-lg p-6 rounded-lg max-w-7xl relative">
+              <div class="flex mb-4">
+                <div class="text-[#ffba00]">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
                 </div>
-                <div class="slider-button-wrap d-flex justify-content-center">
-                  <div class="slider-button-prev swiperSignpostingPrev"><span class="icon"></span></div>
-                  <div class="slider-button-next swiperSignpostingNext"><span class="icon"></span></div>
+              </div>
+              <!-- Quotation marks -->
+
+              <p class="text-gray-700 text-lg mb-4 relative text-left max-w-[600px]">
+                We've had the pleasure of working with [Your Company Name] for several years
+now, and they have consistently exceeded our expectations in every aspect. From
+the initial consultation to ongoing support, their team has demonstrated a deep
+understanding.”
+              </p>
+              <div class="text-4xl text-gray-400 absolute bottom-4 right-4">
+                <img src="images/quito6.svg.svg" alt="">
+              </div>
+              <div class="flex items-center mt-4">
+                <img src="images/testimonial-img4.png.png" alt="Client photo" class="rounded-full w-10 h-10 mr-3">
+                <div class="text-left">
+                  <p class="font-semibold">Orlando Schulist</p>
+                  <p class="text-sm text-gray-500">Company Owner</p>
                 </div>
               </div>
             </div>
-          </div>
+          </swiper-slide>
+          <!-- 2 -->
+          <swiper-slide>
+            <div class="bg-[#ff6610] text-white shadow-lg p-6 rounded-lg max-w-7xl relative">
+              <div class="flex mb-4">
+                <div class="text-[#ffba00]">
+                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                </div>
+              </div>
+              <!-- Quotation marks -->
 
-        </div>
+              <p class="text-white text-lg mb-4 relative text-left max-w-[600px]">
+                We've had the pleasure of working with [Your Company Name] for several years
+now, and they have consistently exceeded our expectations in every aspect. From
+the initial consultation to ongoing support, their team has demonstrated a deep
+understanding.”
+              </p>
+              <div class="text-4xl text-white absolute bottom-4 right-4">
+                <img src="images/quito7.svg.png" alt="">
+              </div>
+              <div class="flex items-center mt-4">
+                <img src="images/testimonial-img3.png.png" alt="Client photo" class="rounded-full w-10 h-10 mr-3">
+                <div class="text-left">
+                  <p class="font-semibold">Orlando Schulist</p>
+                  <p class="text-sm text-white">Company Owner</p>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
+          <!-- 3 -->
+          <swiper-slide>
+            <div class="bg-white shadow-lg p-6 rounded-lg max-w-7xl relative">
+              <div class="flex mb-4">
+                <div class="text-[#ffba00]">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <!-- Quotation marks -->
+
+              <p class="text-gray-700 text-lg mb-4 relative text-left max-w-[600px]">
+                We've had the pleasure of working with [Your Company Name] for several years
+now, and they have consistently exceeded our expectations in every aspect. From
+the initial consultation to ongoing support, their team has demonstrated a deep
+understanding.”
+              </p>
+              <div class="text-4xl text-gray-400 absolute bottom-4 right-4">
+                <img src="images/quito6.svg.svg" alt="">
+              </div>
+              <div class="flex items-center mt-4">
+                <img src="images/testimonial-img4.png.png" alt="Client photo" class="rounded-full w-10 h-10 mr-3">
+                <div class="text-left">
+                  <p class="font-semibold">Orlando Schulist</p>
+                  <p class="text-sm text-gray-500">Company Owner</p>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
+          <!-- 4 -->
+          <swiper-slide>
+            <div class="bg-[#ff6610] text-white shadow-lg p-6 rounded-lg max-w-7xl relative">
+              <div class="flex mb-4">
+                <div class="text-[#ffba00]">
+                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                </div>
+              </div>
+              <!-- Quotation marks -->
+
+              <p class="text-white text-lg mb-4 relative text-left max-w-[600px]">
+                We've had the pleasure of working with [Your Company Name] for several years
+now, and they have consistently exceeded our expectations in every aspect. From
+the initial consultation to ongoing support, their team has demonstrated a deep
+understanding.”
+              </p>
+              <div class="text-4xl text-white absolute bottom-4 right-4">
+                <img src="images/quito7.svg.png" alt="">
+              </div>
+              <div class="flex items-center mt-4">
+                <img src="images/testimonial-img3.png.png" alt="Client photo" class="rounded-full w-10 h-10 mr-3">
+                <div class="text-left">
+                  <p class="font-semibold">Orlando Schulist</p>
+                  <p class="text-sm text-white">Company Owner</p>
+                </div>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>Slide 5</swiper-slide>
+          <swiper-slide>Slide 6</swiper-slide>
+          <swiper-slide>Slide 7</swiper-slide>
+          <swiper-slide>Slide 8</swiper-slide>
+          <swiper-slide>Slide 9</swiper-slide>
+        </swiper-container>
+
       </div>
       </div>
       </div>
@@ -972,7 +968,10 @@
 
 
   </footer>
+
   <script src="extra.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
 
 </html>
