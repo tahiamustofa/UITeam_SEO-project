@@ -7,4 +7,9 @@
     background-image: url('images/Background\ Image.jpg');
     background-size: cover;
   }
-  
+
+.search-form {
+  position: absolute;
+  width: 50%;
+  transform: translateX(-50%);
+}

@@ -31,7 +31,7 @@
   <header>
     <!-- nav  -->
     <navbar class="w-full min-h-screen text-gray-900 bg-gradient-to-br from-transparent to-yellow-100">
-      <nav class="flex justify-between items-center py-8 px-6 mx-auto max-w-screen-xl md:px-12 lg:px-16 xl:px-24">
+      <nav class="flex justify-around items-center py-8 px-6 mx-auto max-w-screen-xl md:px-12 lg:px-16 xl:px-24">
         <button
           class="sidebar-open block md:hidden relative z-30 focus:outline-none transform  -translate-x-1/2 -translate-y-1/2 active:scale-75 transition-transform">
           <svg xmlns="http://www.w3.org/2000/svg" class="btn-open h-5 w-5 transform transition duration-500 ease-in-out"
@@ -79,28 +79,43 @@
               <a href="#">Event
               </a>
               <div
-                class="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out">
+                class="h-0.5 bg-orange-500 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out">
               </div>
             </li>
             <li class="text-lg md:text-base lg:text-lg font-medium group">
               <a href="#">Blog
               </a>
               <div
-                class="h-0.5 bg-yellow-500 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out">
+                class="h-0.5 bg-orange-500 scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out">
               </div>
             </li>
+           
           </ul>
+          
         </div>
-        <button class="search-menu flex justify-center items-center h-12 px-5 font-medium text-gray-100 bg-yellow-500 whitespace-nowrap hover:bg-yellow-600 hover:text-white
-        rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-500 focus:outline-none">
+       <div class="flex sm:gap-2 gap-1 items-center">
+        <button class="search-menu flex justify-center items-center font-medium text-[#ff6610] whitespace-nowrap 
+        rounded-xl transform hover:scale-105 transition duration-500 focus:outline-none">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd"
               d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
               clip-rule="evenodd" />
           </svg>
         </button>
+        <button
+        class="lg:flex hidden items-center space-x-2 px-2 pl-3 gap-1  bg-[#ff6610] text-white font-semibold py-2  rounded-full hover:bg-orange-600 transition duration-200">
+        <span class="">Free Consultation</span>
+
+        <svg width="31" height="31" class="bg-white rounded-full p-2" viewBox="0 0 24 23" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M6.39052 7.74418V6.65037C6.41538 6.17805 6.78826 5.80516 7.23573 5.80516L16.906 5.7803C17.3783 5.80516 17.7512 6.17805 17.7512 6.62551V16.3206C17.7512 16.7681 17.3783 17.141 16.906 17.1658H15.8122C15.3398 17.141 14.967 16.7681 14.9421 16.2958L15.0912 10.429L7.95665 17.5636C7.60862 17.9116 7.11143 17.9116 6.7634 17.5636L5.96791 16.7681C5.64474 16.4449 5.61988 15.9229 5.96791 15.5748L13.1025 8.44024L7.26059 8.61425C6.78826 8.58939 6.39052 8.24136 6.39052 7.74418Z"
+            fill="#090B0E" />
+        </svg>
+      </button>
+       </div>
       </nav>
-      <div class="search-form hidden flex items-center space-x-4 px-6 mx-auto max-w-screen-xl md:px-12 lg:px-16 xl:px-24 
+      <div class="search-form 2xl:left-[25%] xl:left-60 lg:left-80 md:left-10 left-5 lg:w-3/5 w-11/12 hidden flex items-center space-x-4 px-6 mx-auto max-w-screen-xl md:px-12 lg:px-16 xl:px-24 
       transform duration-500 transition-all">
         <div class="flex bg-gray-200 p-2 w-full space-x-2 rounded-lg items-center">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 opacity-75 ml-4" fill="none" viewBox="0 0 24 24"
@@ -109,10 +124,11 @@
               d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
           <input
-            class="w-full bg-gray-50 outline-none border-transparent focus:border-transparent focus:ring-0 rounded-lg text-sm sm:text-base"
+            class="w-full px-2 bg-gray-50 outline-none border-transparent focus:border-transparent focus:ring-0 rounded-lg text-sm sm:text-base"
             type="text" placeholder="Animal name or keyword..." />
         </div>
       </div>
+      
     </navbar>
     <!-- hero  -->
     <section class="hero lg:mb-20 mb-10">
