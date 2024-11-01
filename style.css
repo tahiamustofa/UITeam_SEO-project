@@ -4,8 +4,10 @@
   }
 
   .hero{
-    background-image: url('images/Background\ Image.jpg');
-    background-size: cover;
+    background-image: url('images/header-img11.png.png');
+  background-size: cover;
+  background-position: bottom left;
+    
   }
 
 .search-form {
